@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "installing libModuleConnector.dylib"
+cp libModuleConnector.dylib ~/../../usr/local/lib
