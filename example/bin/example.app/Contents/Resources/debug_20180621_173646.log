@@ -1,0 +1,83 @@
+0.000011 : createing logger StdoutLogger
+0.001754 : RadarCommunicator: 28
+0.001868 : parser constructor
+0.001906 : RadarInterface - base -- begin
+0.001926 : log_trace -- begin
+0.002106 : log_trace -- end
+0.002186 : git sha: 3ae25d11eed0
+0.002213 : build date: 2017-11-28 11:32:05
+0.002238 : subscribe_to_presence_single -- begin
+0.002331 : subscribe_to_presence_single -- end
+0.002367 : subscribe_to_presence_movinglist -- begin
+0.002427 : subscribe_to_presence_movinglist -- end
+0.002454 : subscribe_to_data_float -- begin
+0.002499 : subscribe_to_data_float -- end
+0.002525 : subscribe_to_data_string -- begin
+0.002569 : subscribe_to_data_string -- end
+0.002598 : subscribe_to_data_byte -- begin
+0.002664 : subscribe_to_data_byte -- end
+0.002704 : subscribe_to_baseband_iq -- begin
+0.002753 : subscribe_to_baseband_iq -- end
+0.002785 : subscribe_to_baseband_ap -- begin
+0.002827 : subscribe_to_baseband_ap -- end
+0.002877 : subscribe_to_pulsedoppler_float -- begin
+0.002939 : subscribe_to_pulsedoppler_float -- end
+0.002978 : subscribe_to_noisemap_float -- begin
+0.003004 : subscribe_to_noisemap_float -- end
+0.003022 : subscribe_to_pulsedoppler_byte -- begin
+0.003067 : subscribe_to_pulsedoppler_byte -- end
+0.008383 : subscribe_to_noisemap_byte -- begin
+0.008483 : subscribe_to_noisemap_byte -- end
+0.008511 : subscribe_to_system_status -- begin
+0.008535 : subscribe_to_system_status -- end
+0.008580 : subscribe_to_resp_status -- begin
+0.008719 : subscribe_to_resp_status -- end
+0.008827 : subscribe_to_sleep_status -- begin
+0.008863 : subscribe_to_sleep_status -- end
+0.008876 : subscribe_to_respiration_movinglist -- begin
+0.008897 : subscribe_to_respiration_movinglist -- end
+0.008909 : subscribe_to_respiration_detectionlist -- begin
+0.008930 : subscribe_to_respiration_detectionlist -- end
+0.008945 : open -- begin
+0.008958 : creating LinuxModuleIo
+0.009101 : LinuxModuleIo::open /dev/cu.usbmodem1411 -- begin
+0.010907 : LinuxModuleIo::open /dev/cu.usbmodem1411 -- end
+0.011054 : open -- end
+0.011079 : RadarInterface - base -- end
+0.011196 : subscribe_to_radar_settings -- begin
+0.011233 : subscribe_to_radar_settings -- end
+0.011280 : ping -- begin
+0.011374 : sending: 
+0.011407 : 8: {0x7d, 0x1, 0xae, 0xea, 0xaa, 0xee, 0x7c, 0x7e, }
+0.011442 : sent
+0.011647 : 8: {0x7d, 0x1, 0xea, 0xae, 0xee, 0xaa, 0x7c, 0x7e, }
+0.011679 : dispatching packet: 
+0.011701 : 5: {0x1, 0xea, 0xae, 0xee, 0xaa, }
+0.011761 : ping -- end
+0.011852 : unsubscribe -- begin
+0.011895 : unsubscribe -- end
+0.011924 : task ending: recorder
+0.011987 : ~ActiveThread: recorder
+0.012010 : ~RadarInterface -- begin
+0.012023 : ~RadarInterface -- end
+0.012066 : ~RadarCommunicator -- begin
+0.012352 : task ending: writer
+0.012407 : ~ActiveThread: writer
+0.077753 : 294: {0x7c, 0x7c, 0x7c, 0x7c, 0xfd, 0x0, 0x0, 0x0, 0x0, 0x50, 0xd, 0x0, 0x0, 0x0, 0x1c, 0xd8, 0x0, 0x0, 0x1c, 0x0, ..., 0x0, 0xac, 0x7e}
+0.077807 : dispatching packet: 
+0.077960 : 253: {0x50, 0xd, 0x0, 0x0, 0x0, 0x1c, 0xd8, 0x0, 0x0, 0x1c, 0x0, 0x0, 0x0, 0x18, 0xb3, 0x52, 0x3d, 0xa1, 0xce, 0x2d, ..., 0x23, 0x16, 0x40}
+0.078006 : dispatching packet: 
+0.078053 : 29: {0x50, 0x26, 0xfe, 0x75, 0x23, 0x19, 0xd8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1c, 0x0, 0x0, 0x0, 0xe5, 0x31, 0x31, ..., 0x0, 0x0, 0x0}
+0.078108 : do_dispatch_packet, 84 -- we did not find a handler for this package
+0.078158 : 253: {0x50, 0xd, 0x0, 0x0, 0x0, 0x1c, 0xd8, 0x0, 0x0, 0x1c, 0x0, 0x0, 0x0, 0x18, 0xb3, 0x52, 0x3d, 0xa1, 0xce, 0x2d, ..., 0x23, 0x16, 0x40}
+0.078182 : do_dispatch_packet, 84 -- we did not find a handler for this package
+0.078212 : 29: {0x50, 0x26, 0xfe, 0x75, 0x23, 0x19, 0xd8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1c, 0x0, 0x0, 0x0, 0xe5, 0x31, 0x31, ..., 0x0, 0x0, 0x0}
+0.088166 : task ending: reader
+0.088275 : ~ActiveThread: reader
+0.088308 : Closing: /dev/cu.usbmodem1411
+0.088369 : ~RadarCommunicator -- end
+0.088402 : ~PacketDispatcher -- begin
+0.088449 : task ending: dispatcher
+0.096651 : ~PacketDispatcher -- end
+0.096685 : ~ActiveThread: dispatcher
+0.096713 : ~StdoutLogger

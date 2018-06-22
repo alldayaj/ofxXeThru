@@ -3,6 +3,8 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
+    //note: to search for serial device address open terminal:
+    // ls /dev/cu.*
     sensor.setup("/dev/cu.usbmodem1411");
 }
 

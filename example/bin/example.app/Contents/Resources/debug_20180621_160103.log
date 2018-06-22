@@ -1,0 +1,74 @@
+0.000010 : createing logger StdoutLogger
+0.000480 : RadarCommunicator: 28
+0.000509 : parser constructor
+0.000534 : RadarInterface - base -- begin
+0.000549 : log_trace -- begin
+0.000757 : log_trace -- end
+0.000787 : git sha: 3ae25d11eed0
+0.000803 : build date: 2017-11-28 11:32:05
+0.000820 : subscribe_to_presence_single -- begin
+0.000867 : subscribe_to_presence_single -- end
+0.000880 : subscribe_to_presence_movinglist -- begin
+0.000905 : subscribe_to_presence_movinglist -- end
+0.000918 : subscribe_to_data_float -- begin
+0.000934 : subscribe_to_data_float -- end
+0.000947 : subscribe_to_data_string -- begin
+0.000964 : subscribe_to_data_string -- end
+0.000976 : subscribe_to_data_byte -- begin
+0.001003 : subscribe_to_data_byte -- end
+0.001019 : subscribe_to_baseband_iq -- begin
+0.001038 : subscribe_to_baseband_iq -- end
+0.001051 : subscribe_to_baseband_ap -- begin
+0.001069 : subscribe_to_baseband_ap -- end
+0.001084 : subscribe_to_pulsedoppler_float -- begin
+0.001102 : subscribe_to_pulsedoppler_float -- end
+0.001118 : subscribe_to_noisemap_float -- begin
+0.001136 : subscribe_to_noisemap_float -- end
+0.001149 : subscribe_to_pulsedoppler_byte -- begin
+0.001734 : subscribe_to_pulsedoppler_byte -- end
+0.001752 : subscribe_to_noisemap_byte -- begin
+0.001771 : subscribe_to_noisemap_byte -- end
+0.001801 : subscribe_to_system_status -- begin
+0.001854 : subscribe_to_system_status -- end
+0.001888 : subscribe_to_resp_status -- begin
+0.001914 : subscribe_to_resp_status -- end
+0.001930 : subscribe_to_sleep_status -- begin
+0.001951 : subscribe_to_sleep_status -- end
+0.001965 : subscribe_to_respiration_movinglist -- begin
+0.001985 : subscribe_to_respiration_movinglist -- end
+0.002000 : subscribe_to_respiration_detectionlist -- begin
+0.002019 : subscribe_to_respiration_detectionlist -- end
+0.002034 : open -- begin
+0.002047 : creating LinuxModuleIo
+0.002211 : LinuxModuleIo::open /dev/cu.usbmodem1411 -- begin
+0.003251 : LinuxModuleIo::open /dev/cu.usbmodem1411 -- end
+0.003310 : open -- end
+0.003382 : RadarInterface - base -- end
+0.003504 : subscribe_to_radar_settings -- begin
+0.003556 : subscribe_to_radar_settings -- end
+0.003625 : ping -- begin
+0.003689 : sending: 
+0.003841 : 8: {0x7d, 0x1, 0xae, 0xea, 0xaa, 0xee, 0x7c, 0x7e, }
+0.003898 : sent
+0.004086 : 8: {0x7d, 0x1, 0xea, 0xae, 0xee, 0xaa, 0x7c, 0x7e, }
+0.004209 : dispatching packet: 
+0.004234 : 5: {0x1, 0xea, 0xae, 0xee, 0xaa, }
+0.004303 : ping -- end
+0.004384 : unsubscribe -- begin
+0.004425 : unsubscribe -- end
+0.004563 : task ending: recorder
+0.004639 : ~ActiveThread: recorder
+0.004683 : ~RadarInterface -- begin
+0.004716 : ~RadarInterface -- end
+0.004742 : ~RadarCommunicator -- begin
+0.004904 : task ending: writer
+0.005007 : ~ActiveThread: writer
+0.027842 : task ending: reader
+0.027953 : ~ActiveThread: reader
+0.027976 : Closing: /dev/cu.usbmodem1411
+0.028044 : ~RadarCommunicator -- end
+0.028078 : ~PacketDispatcher -- begin
+0.028110 : task ending: dispatcher
+0.028159 : ~PacketDispatcher -- end
+0.028178 : ~ActiveThread: dispatcher
+0.028217 : ~StdoutLogger

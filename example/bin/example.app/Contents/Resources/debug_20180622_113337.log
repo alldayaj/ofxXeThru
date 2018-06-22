@@ -1,0 +1,13 @@
+4.375776 : io_read() returned negative: 
+
+4.377434 : Reader is bailing out
+
+5.134606 : Timeout waiting for response
+25.454817 : Failed to write all bytes to module, expected bytes written: 13, actual bytes written: 0
+25.454937 : Failed to write all bytes to module, expected bytes written: 13, actual bytes written: 0
+25.455006 : Failed to write all bytes to module, expected bytes written: 13, actual bytes written: 0
+25.455055 : Failed to write all bytes to module, expected bytes written: 13, actual bytes written: 0
+25.455101 : Failed to write all bytes to module, expected bytes written: 13, actual bytes written: 0
+25.455145 : Failed to write all bytes to module, expected bytes written: 13, actual bytes written: 0
+25.455187 : Failed to write all bytes to module, expected bytes written: 17, actual bytes written: 0
+25.455225 : Failed to write all bytes to module, expected bytes written: 10, actual bytes written: 0

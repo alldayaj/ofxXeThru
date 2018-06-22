@@ -53,9 +53,9 @@
 		40F474E43EE4133342EA361C /* X4M300.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = X4M300.hpp; path = ../../../addons/ofxXeThru/src/X4M300.hpp; sourceTree = SOURCE_ROOT; };
 		4B078ACB180A8DE9FA9FCEF5 /* matlab_wrapper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = matlab_wrapper.h; path = ../../../addons/ofxXeThru/src/matlab_wrapper.h; sourceTree = SOURCE_ROOT; };
 		4C6FC2F71A41C4E18F1BC580 /* X2M200.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = X2M200.hpp; path = ../../../addons/ofxXeThru/src/X2M200.hpp; sourceTree = SOURCE_ROOT; };
+		5DB9DA7920DC4D3A00CB7AED /* ofxXeThru.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxXeThru.h; path = ../src/ofxXeThru.h; sourceTree = "<group>"; };
 		5DBEFF2320DC23B100BA7212 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../lib; sourceTree = "<group>"; };
 		5DBEFF2520DC23DA00BA7212 /* libModuleConnector.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libModuleConnector.dylib; path = ../lib/libModuleConnector.dylib; sourceTree = "<group>"; };
-		5DBEFF2720DC26F200BA7212 /* ofxXeThru.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxXeThru.h; sourceTree = "<group>"; };
 		60B37D592D9D8F8C5129D04A /* datatypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = datatypes.h; path = ../../../addons/ofxXeThru/src/datatypes.h; sourceTree = SOURCE_ROOT; };
 		6D14B27DDB8BC83EE0280C93 /* DataPlayer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DataPlayer.hpp; path = ../../../addons/ofxXeThru/src/DataPlayer.hpp; sourceTree = SOURCE_ROOT; };
 		7A4ABC1BCF47ACCE09982AD9 /* X4M200.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = X4M200.hpp; path = ../../../addons/ofxXeThru/src/X4M200.hpp; sourceTree = SOURCE_ROOT; };
@@ -191,7 +191,7 @@
 				40F474E43EE4133342EA361C /* X4M300.hpp */,
 				BCABF480D311AB4CF0430A61 /* XEP.hpp */,
 				E40DEC369A09B794C96891B4 /* xtid.h */,
-				5DBEFF2720DC26F200BA7212 /* ofxXeThru.h */,
+				5DB9DA7920DC4D3A00CB7AED /* ofxXeThru.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
